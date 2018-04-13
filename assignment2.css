@@ -13,10 +13,11 @@ html {
     top:0;
     bottom:0;
     z-index: -5;
-    background-image:url("schoolback.PNG");
+    background-image:url("schoolback2.PNG");
 	background-size:cover;
+	background-position:center; 
 	filter:blue(3);
-		
+	
 }
 
 body {
@@ -123,18 +124,21 @@ body {
 	line-height:50px;
 	float:left;
 	transition: 0.4s;
+
 }
 
 .dropdown:hover {
 	/* background-color:#242424; */
 	background-color: #191919;
 	color:white;
+
 }
 
 
 
 .dropdown:hover div a {
 	display:block;
+
 
 }
 	
@@ -156,13 +160,14 @@ body {
 
 .dropdown div a:hover {
 	background-color:#DFDFDF;
-
+	
 }
 
 .dropdown-container {
 	position:absolute;
     bottom:-50px;
     left:0;
+
 }
 
 .rounded-corner a{
@@ -191,14 +196,17 @@ body {
 	color:black;
 	position: absolute;
 	background-color:white;
-	bottom:-690px;
-	height:600px;
+	/* bottom:-690px; */
+	bottom:-925px;
+	/* height:600px; */
+	height: 850px;
 	padding:20px;
 	z-index:-9999;
-	margin-left:20%;
-	width: 60%;
-	border-radius: 0px 0px 20px 20px;
+	margin-left:25%;
+	width: 50%;
+	
 	float: left;
+	overflow: auto;
 }
 
 .insideinformation h1 {
@@ -215,45 +223,41 @@ body {
 
 .insideinformation p {
 	width:100%;
-	font-size:25px;
+	/* font-size:1.3vw; */
+	font-size: 1.3em;
 }
 
 .insideinformation h1 {
 	float:left;
 }
 
-
-/* insideinformation RIGHT */
-
- .insideinformation-right {
-	color:black;
+.footer {
 	position: absolute;
-	bottom:-690px;
-	height:600px;
-	padding:20px;
-	z-index:-9999;
-	margin-left:25%;
-	width: 100%;
-	float: right;
-	border-radius: 0px 0px 20px 20px;
-	
+	bottom:-975px;
+	height:50px;
+	width:100%;
+	background-color:#008EB2;
+	left:0;
+
 
 }
 
-.insideinformation-right h1 {
-	float:right;
-	width:45%;
-	text-align:center;
+.footer p {
+	color:black;
+	font-weight: bold;
+	text-align:left;
+	font-size: 0.8vw;
+	line-height: 20px;
+	padding:0px 50px;
 }
 
-.insideinformation-right p {
-	width:45%;
-}
-
-.insideinformation-right h1 {
+.footer img {
+	padding:5px;
+	width:2vw;
+	height:2vw;
 	float:left;
+	line-height: 200px;
 }
-
 
 a:link {
 	color:white;
