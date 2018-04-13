@@ -13,10 +13,10 @@ html {
     top:0;
     bottom:0;
     z-index: -5;
-    background-image:url("schoolback2.png");
+    background-image:url("schoolback.png");
 	background-size:cover;
 	filter:blue(3);
-	
+		
 }
 
 body {
