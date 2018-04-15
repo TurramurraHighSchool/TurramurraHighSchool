@@ -176,6 +176,8 @@ body {
 	border-radius: 0px 0px 5px 5px;
 }
 
+
+
 /* insideout . html */
 
 
@@ -195,8 +197,8 @@ body {
 	z-index:-9999;
 	left:0;
 	margin-left:25%;
+
 	width: 50%;
-	
 	float: left;
 	overflow: auto;
 }
@@ -208,16 +210,12 @@ body {
 	font-size:50px;
 }
 
-.insideinformation h2 {
-	float:left;
-	width:100%;
-	text-align:center;
-}
-
 .insideinformation p {
 	width:100%;
 	/* font-size:1.3vw; */
 	font-size: 1.3em;
+
+	font-family: arial;
 }
 
 .insideinformation h1 {
@@ -226,12 +224,13 @@ body {
 
 
 .footer {
-	position: absolute;
 	bottom:-975px;
 	height:50px;
+	max-height: 50px;
 	width:100%;
 	background-color:#008EB2;
 	left:0;
+	position: absolute;
 
 
 }
@@ -255,21 +254,67 @@ body {
 
 
 
+.text-templet h1 span {
+	
+	font-size:50px;
+	position: relative;
+	padding:0px 10px;
+	
+
+	background-color:rgba(255,255,255,0.9);
+	
+	border-radius: 10px 10px 10px 10px;
+
+
+	font-weight:bold;
+	color:black;
+	/* padding:8px; */
+
+}
+.text-templet h1  {
+	text-align: center;	
+	
+}
+
+
+
+.text-templet p span {
+	
+	font-size:22px;
+	position: relative;
+	padding:0px 10px;
+	
+
+	
+	color:black;
+
+}
+.text-templet p  {
+	text-align: center;	
+	background-color:rgba(255,255,255,0.9);
+	padding: 10px;
+
+	border-radius: 10px 10px 10px 10px;
+	width:75%;
+	margin: auto
+
+
+
+
+
+
+	
+}
+
+
 .text-templet {
-	float:left;
-	width:45%;
+	padding-bottom: 20px
 }
 
-.text-templet h1 {
-	color:white;
-	text-align:center;
-}
 
-.text-templet p{
-	color:white;
-	font-size:1vw;
-	margin-left: 50px
-}
+
+
+
 
 .footer-templet {
 	position: absolute;
@@ -278,6 +323,7 @@ body {
 	width:100%;
 	background-color:#008EB2;
 	left:0;
+
 
 
 }
@@ -289,6 +335,7 @@ body {
 	font-size: 0.8em;
 	line-height: 20px;
 	padding:0px 50px;
+
 }
 
 .footer-templet img {
@@ -297,21 +344,34 @@ body {
 	height:40px;
 	float:left;
 	line-height: 200px;
+
 }
 
+/* templet image */
+
 .templet-image img {
-	width:50%;
-	height:50%;
 	top:0;
 	border:0.5vw solid #008EB2;
-	z-index:1;
+	width: 1000px;
+	max-width:100%;
 }
 
 .templet-image {
-	text-align:right;	
-	padding:25px;
+	bottom:0;
+		
+	text-align:center;
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
