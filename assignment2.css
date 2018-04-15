@@ -363,7 +363,19 @@ body {
 
 }
 
+.templet-image-year7 {
+	bottom:0;
 
+	text-align: center;
+}
+
+.templet-image-year7 img {
+	top:0;
+	border:0.5vw solid #008EB2;
+	width: 300px;
+	max-width:100%;
+
+}
 
 
 
